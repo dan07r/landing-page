@@ -98,6 +98,7 @@ a {
   height: 125px;
   width: 125px;
   border-radius: 5px;
+  margin: 0px auto 0px auto;
 }
 
 main .container {
@@ -105,9 +106,56 @@ main .container {
   text-align: center;
 }
 
-main div:nth-child(1) {
+.random_info {
   margin-bottom: 50px;
   font-size: 28px;
   font-weight: bold;
   color: #1f2937;
+}
+
+.container .random p {
+  padding: 0px 5px;
+}
+
+.quote {
+  height: 45vh;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  padding: 0px 100px 0px 100px;
+  flex-direction: column;
+}
+
+.quote :nth-child(2) {
+  padding-left: 200px;
+}
+
+.call_action {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.call_action_box {
+  background-color: #3882f6;
+  padding: 35px 75px 35px 75px;
+  border-radius: 5px;
+  color: white;
+}
+
+.call_action_box .button {
+  border: 1px solid white;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
