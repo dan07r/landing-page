@@ -30,6 +30,7 @@ header {
 .header-text {
   height: 35vh;
   margin-top: 40px;
+  display: flex;
 }
 .text {
   flex-direction: column;
