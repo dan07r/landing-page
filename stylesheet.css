@@ -28,9 +28,9 @@ header {
 }
 
 .header-text {
-  height: 35vh;
+  height: 45vh;
   margin-top: 40px;
-  display: flex;
+  align-items: center;
 }
 .text {
   flex-direction: column;
@@ -92,8 +92,8 @@ a {
 
 .box {
   border: solid 2px blue;
-  height: 125px;
-  width: 125px;
+  height: 225px;
+  width: 225px;
   border-radius: 5px;
   margin: 0px auto 0px auto;
 }
@@ -112,6 +112,7 @@ main .container {
 
 .container .random p {
   padding: 0px 5px;
+  font-size: 36px;
 }
 
 .quote {
@@ -120,8 +121,9 @@ main .container {
   justify-content: center;
   align-items: center;
   margin-top: 200px;
-  padding: 0px 100px 0px 100px;
+  padding: 0px 200px 0px 200px;
   flex-direction: column;
+  font-size: 36px;
 }
 
 .quote :nth-child(2) {
@@ -141,11 +143,15 @@ main .container {
   padding: 35px 75px 35px 75px;
   border-radius: 5px;
   color: white;
+  width: 1400px;
+
+  font-size: 36px;
 }
 
 .call_action_box .button {
   border: 1px solid white;
   margin-left: 10px;
+  font-size: 36px;
 }
 
 footer {
